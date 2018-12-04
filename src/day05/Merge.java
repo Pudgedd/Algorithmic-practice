@@ -34,14 +34,14 @@ public class Merge {
                 cur.setNext(new ListNode(scanner.nextInt()));
                 cur = cur.getNext();
             }
-            res[i] = fun(root1,root2);
+            res[i] = fun(root1, root2);
         }
 
         for (int i = 0; i < res.length; i++) {
             System.out.print("{");
             while (res[i] != null) {
                 String s = res[i].getNext() == null ? "}" : ",";
-                System.out.print(res[i].getVal()+s);
+                System.out.print(res[i].getVal() + s);
                 res[i] = res[i].getNext();
             }
         }
@@ -64,10 +64,10 @@ public class Merge {
             if (list1 == null) {
                 pre.setNext(list2);
                 list2 = list2.getNext();
-            }else if (list2 == null) {
+            } else if (list2 == null) {
                 pre.setNext(list1);
                 list1 = list1.getNext();
-            }else if (list1.getVal() <= list2.getVal()) {
+            } else if (list1.getVal() <= list2.getVal()) {
                 pre.setNext(list1);
                 list1 = list1.getNext();
             } else {

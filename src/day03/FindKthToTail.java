@@ -32,7 +32,7 @@ public class FindKthToTail {
 
     }
 
-    private static ListNode fun(ListNode root,int k) {
+    private static ListNode fun(ListNode root, int k) {
 
         ListNode fast = root;
         ListNode slow = root;

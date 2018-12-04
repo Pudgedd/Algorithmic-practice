@@ -32,7 +32,6 @@ public class VerifySquenceOfBST {
     }
 
     /**
-     *
      * 1、确定root；
      * 2、遍历序列（除去root结点），找到第一个大于root的位置，则该位置左边为左子树，右边为右子树；
      * 3、遍历右子树（步骤2在找大于root的位置时已经遍历了左子树了），若发现有小于root的值，则直接返回false；

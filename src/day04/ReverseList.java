@@ -5,8 +5,7 @@ import common.ListNode;
 import java.util.Scanner;
 
 /**
- * @description:输入一个链表，反转链表后，输出新链表的表头。
- * 1
+ * @description:输入一个链表，反转链表后，输出新链表的表头。 1
  * 5
  * 1 2 3 4 5-> 5 4 3 2 1
  * @author: kendall
@@ -32,7 +31,7 @@ public class ReverseList {
             System.out.print("{");
             while (res[i] != null) {
                 String s = res[i].getNext() == null ? "}" : ",";
-                System.out.print(res[i].getVal()+s);
+                System.out.print(res[i].getVal() + s);
                 res[i] = res[i].getNext();
             }
         }

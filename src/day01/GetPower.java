@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 /**
  * @description: 给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方
- *
  * @author: kendall
  * @since: 2018/9/24
  */

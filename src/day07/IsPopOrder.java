@@ -43,7 +43,8 @@ public class IsPopOrder {
     }
 
     private static boolean fun(int[] pushArr, int[] popArr) {
-        if(pushArr == null || popArr == null || pushArr.length == 0 || popArr.length == 0 || pushArr.length != popArr.length) return false;
+        if (pushArr == null || popArr == null || pushArr.length == 0 || popArr.length == 0 || pushArr.length != popArr.length)
+            return false;
 
         Stack<Integer> pushStack = new Stack<>();
         int indexOfPopArr = 0;

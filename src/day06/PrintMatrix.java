@@ -5,8 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @description:输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字
- * 1
+ * @description:输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字 1
  * 4 4
  * 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
  * 1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10.
@@ -46,13 +45,13 @@ public class PrintMatrix {
         int col = matrix[0].length;
         List<Integer> res = new ArrayList<>();
 
-        int left = 0, right = col-1, top = 0, buttom = row-1;
+        int left = 0, right = col - 1, top = 0, buttom = row - 1;
 
-        while (left <= right && top<= buttom) {
+        while (left <= right && top <= buttom) {
             for (int i = left; i <= right; i++) {
                 res.add(matrix[top][i]);
             }
-            for (int j = top+1; j <= buttom; j++) {
+            for (int j = top + 1; j <= buttom; j++) {
                 res.add(matrix[j][right]);
             }
             if (top != buttom) {
