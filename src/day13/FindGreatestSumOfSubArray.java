@@ -23,21 +23,7 @@ import java.util.Scanner;
  */
 public class FindGreatestSumOfSubArray {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int groupNum = scanner.nextInt();
-        List[] arrs = new ArrayList[groupNum];
-        for (int i = 0; i < groupNum; i++) {
-            int arrSize = scanner.nextInt();
-            arrs[i] = new ArrayList<Integer>(arrSize);
 
-            for (int j = 0; j < arrSize; j++) {
-                arrs[i].add(scanner.nextInt());
-            }
-        }
-
-        for (int i = 0; i < groupNum; i++) {
-            System.out.println(fun(arrs[i]));
-        }
     }
 
     /**
