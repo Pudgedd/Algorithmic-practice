@@ -66,7 +66,7 @@ public class Permutation {
         }
 
         //从index选取该位作为首字符进行交换，然后对后面对字符进行排列，再回溯
-        //f(abc) = a+f(bc)  如1，abc= a+ bc-cb  2 交换ab b+ac-ca 然后交换ab复位回溯
+        //f(abc) = a+f(bc)  如1，abc= a+ bc-cb  2 交换ab b+ac-ca 然后交换ab复位回溯 3 交换ac c+ab-ba 结束
         for (int i = index; i < chars.length; i++) {
             swap(chars, i, index);
             permutate(chars, index+1, resSet);
