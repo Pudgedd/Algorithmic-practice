@@ -1,4 +1,4 @@
-package com.kendall.algorithmic.jzoffer.day04;
+package com.kendall.algorithmic.jzoffer;
 
 import com.kendall.algorithmic.jzoffer.common.ListNode;
 

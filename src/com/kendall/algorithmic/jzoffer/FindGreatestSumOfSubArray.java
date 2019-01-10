@@ -1,4 +1,4 @@
-package com.kendall.algorithmic.jzoffer.day13;
+package com.kendall.algorithmic.jzoffer;
 
 import java.util.List;
 

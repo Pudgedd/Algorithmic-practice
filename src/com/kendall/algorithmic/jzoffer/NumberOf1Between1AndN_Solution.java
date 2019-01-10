@@ -1,4 +1,4 @@
-package com.kendall.algorithmic.jzoffer.day14;
+package com.kendall.algorithmic.jzoffer;
 
 import java.util.Scanner;
 
