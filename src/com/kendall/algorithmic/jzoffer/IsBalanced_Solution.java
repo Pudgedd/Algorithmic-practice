@@ -76,6 +76,6 @@ public class IsBalanced_Solution {
         if (root == null) {
             return 0;
         }
-        return Math.max(getDepthOfTree(root.left), getDepthOfTree(root.right))
+        return Math.max(getDepthOfTree(root.left), getDepthOfTree(root.right));
     }
 }
