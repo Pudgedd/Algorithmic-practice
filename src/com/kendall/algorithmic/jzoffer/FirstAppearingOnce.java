@@ -16,9 +16,12 @@ public class FirstAppearingOnce {
         char[] chars = scanner.next().toCharArray();
         for (char aChar : chars) {
             insert(aChar);
+            insert1(aChar);
         }
-        char firstAppearingOnce = getFirstAppearingOnce();
-        System.out.println(firstAppearingOnce);
+        char res = getFirstAppearingOnce();
+        char res1 = getFirstAppearingOnce1();
+        System.out.println(res);
+        System.out.println(res1);
     }
 
     private static int[] map = new int[256];
@@ -47,4 +50,23 @@ public class FirstAppearingOnce {
         return queue.peek();
     }
 
+    ///////////////
+    private static int[] map1 = new int[256];
+    private static StringBuffer sb=new StringBuffer();
+    public static void insert1(char ch) {
+        map1[ch]++;
+        sb.append(ch);
+    }
+
+    public static char getFirstAppearingOnce1() {
+        char[] chars = sb.toString().toCharArray();
+        for (char aChar : chars) {
+            if (map1[aChar] == 1) {
+                return aChar;
+            }
+        }
+
+
+        return '#';
+    }
 }
