@@ -17,8 +17,9 @@ public class ListNode {
         return next;
     }
 
-    public void setNext(ListNode next) {
+    public ListNode setNext(ListNode next) {
         this.next = next;
+        return next;
     }
 
     public int getVal() {
