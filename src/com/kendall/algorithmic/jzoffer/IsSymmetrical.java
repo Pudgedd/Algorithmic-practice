@@ -3,7 +3,6 @@ package com.kendall.algorithmic.jzoffer;
 import com.kendall.algorithmic.jzoffer.common.TreeNode;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * @description:请实现一个函数，用来判断一颗二叉树是不是对称的。
