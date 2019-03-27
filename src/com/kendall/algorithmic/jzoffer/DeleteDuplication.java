@@ -1,4 +1,4 @@
-package com.kendall.algorithmic;
+package com.kendall.algorithmic.jzoffer;
 
 import com.kendall.algorithmic.jzoffer.common.ListNode;
 
