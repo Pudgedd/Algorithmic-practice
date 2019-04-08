@@ -6,7 +6,7 @@ package com.kendall.algorithmic.jzoffer.common;
  * @since: 2019/3/23
  */
 public class TreeLinkNode {
-    int val;
+    public int val;
     public TreeLinkNode left = null;
     public TreeLinkNode right = null;
     public TreeLinkNode next = null;

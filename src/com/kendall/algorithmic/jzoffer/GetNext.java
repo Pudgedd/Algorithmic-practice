@@ -1,4 +1,6 @@
-package com.kendall.algorithmic.jzoffer.common;
+package com.kendall.algorithmic.jzoffer;
+
+import com.kendall.algorithmic.jzoffer.common.TreeLinkNode;
 
 import java.util.ArrayList;
 import java.util.List;
