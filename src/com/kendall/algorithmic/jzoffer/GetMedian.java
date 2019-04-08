@@ -1,6 +1,5 @@
 package com.kendall.algorithmic.jzoffer;
 
-import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 /**
@@ -58,34 +57,6 @@ public class GetMedian {
             return new Double(minHeap.peek() + maxHeap.peek()) / 2;
         } else {
             return new Double(maxHeap.peek());
-        }
-    }
-}
-class Pair<T>{
-    public Pair() {
-    }
-
-    private T first=null;
-    private T second=null;
-
-    public Pair(T fir,T sec){
-        this.first=fir;
-        this.second=sec;
-    }
-    public T getFirst(){
-        return this.first;
-    }
-    public T getSecond(){
-        return this.second;
-    }
-    public void setFirst(T fir){
-        this.first=fir;
-    }
-
-    class SonPair extends Pair<String>{
-        @Override
-        public void setFirst(String fir){
-
         }
     }
 }
