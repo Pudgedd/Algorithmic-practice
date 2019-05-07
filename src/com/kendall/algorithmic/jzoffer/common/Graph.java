@@ -65,7 +65,7 @@ public class Graph {
             System.out.println(graph.vertexes[front].data);
             visited[front] = true;
             for (int index : graph.adj[front]) {
-                queue.offer(index);;
+                queue.offer(index);
             }
         }
     }
